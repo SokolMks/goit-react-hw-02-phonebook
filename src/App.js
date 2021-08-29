@@ -20,7 +20,6 @@ class App extends React.Component {
 
     if (checkName) {
       alert(`${name} is already in contacts`);
-      return;
     } else {
       const elContact = {
         id: shortid.generate(),
